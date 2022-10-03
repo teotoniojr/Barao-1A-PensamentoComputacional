@@ -9,3 +9,15 @@ body {
     text-align: left;
     background-color: aqua;
 }
+ul {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 500px;
+}
+li {
+    padding: 25px;
+    font-size: 26px;
+}
+.foto-beneficios {
+    width: 40%;
+}
