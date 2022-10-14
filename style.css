@@ -1,23 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 body {
+    font-family: 'Poiret One', cursive;
     text-align: center;
-    background: rgb(233, 219, 246);
+    background: linear-gradient(rgb(233, 219, 246), aqua);
+    margin: 0;
+}
+header {
+    padding: 20px 0;
+}
+.caixa {
+    display: inline;
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+}
+h3 {
+    text-align: left;
+}
+.imagem-logo {
+    width: 10%;
+    margin-left: 18px;
+    border-radius: 90px;
+    box-shadow: 2px 2px 2px #111111;
+}
+nav {
+    position: absolute;
+    top: 90px;
+    right: 65px;
+}
+nav a {
+    font-size: 20px;
+    padding-left: 20px;
+    color: #fc5454;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover{
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 2px 3px 5px rgb(255, 129, 129);
+    color: #fd3b3b;
+    transition: 0.5s;
+
 }
 .capa {
     width: 100%;
+    border-radius: 5px 5px 5px 5px;
 }
+h1 {
+   font-size: 50px; 
+}
+p {
+    margin-right: 256px;
+    margin-left: 256px;
+    font-size: 25px;
+    line-height: 1.25em;
+}
+.slogan {
+    font-style: italic;
+}
+
+
 .beneficios {
+    margin-top: 5em;
     text-align: left;
-    background-color: aqua;
+
+}
+h2.titulo-secundario {
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 2px 2px 5px aquamarine;
 }
 ul {
     display: inline-block;
     vertical-align: top;
-    margin-right: 500px;
+    margin: 100px 150px 20px 250px;
 }
 li {
     padding: 25px;
     font-size: 26px;
 }
 .foto-beneficios {
-    width: 40%;
+    width: 30%;
+    border-radius: 720px;
 }
